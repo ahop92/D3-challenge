@@ -1,4 +1,4 @@
-# D3-challenge
+# Intersectional Demographics Evalaution (U.S. Census 2014)
 
 ## Background 
 
