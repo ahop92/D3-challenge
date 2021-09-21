@@ -4,15 +4,15 @@
 
 Using data from the 2014 American Community Survey (ACS) Year 1 estimates from the U.S. Census Bureau, our team prepared the above visualization in an effort to reveal any correlations between various types of disparities or demographics within a given state.
 
-![image](https://raw.github.com/ahop92/census-international_demographic-eval-2014/main/images/overview.PNG)
+![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/overview.PNG)
 
 ## Instructions 
 
 The data visualization above allows the user to compare two sets of data to one another. The y-axis on the left-hand-side of the graph contains the following options: percentage of citizens in the state lacking healthcare, percentage of population defined as obese, and percentage of the population that smokes. The x-axis on the bottom portion of the graph contains the following groups: percentage of population experiencing poverty, median age of the population, median income of the population. Each demographic/disparity is user-clickable.
 
-![image](https://raw.github.com/ahop92/census-international_demographic-eval-2014/main/images/xaxis.PNG)
+![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/xaxis.PNG)
 
-![image](https://raw.github.com/ahop92/census-international_demographic-eval-2014/main/images/yaxis.PNG)
+![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/yaxis.PNG)
 
 
 ## Functionality
@@ -24,7 +24,7 @@ The code takes advantage of the D3 library in javascript to accomplish the follo
 1. Import demographic data from csv file. 
 2. Build bubble chart visualization using SVG wrapper technique. 
 
-![image](https://raw.github.com/ahop92/census-international_demographic-eval-2014/main/images/circles.PNG)
+![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/circles.PNG)
 
 ### Data Processing 
 
@@ -43,11 +43,11 @@ The script uses the following built-in methods to deploy the interactive bubble 
 2. yScale(): According to the user's selected axis, update the scale with an appropriate minimum and maximum value for the y-axis.
 3. renderXAxis(): According to the user's selected x-axis, update the visualized axis with the new information and switch from the previous axis to the current axis with a delay and transition of 1000ms. 
 
-![image](https://raw.github.com/ahop92/census-international_demographic-eval-2014/main/images/yaxiscode.PNG)
+![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/yaxiscode.PNG)
 
 4. renderYAxis(): According to the user's selected y-axis, update the visualized axis with the new information and switch from the previous axis to the current axis with a delay and transition of 1000ms.
 
-![image](https://raw.github.com/ahop92/census-international_demographic-eval-2014/main/images/xaxiscode.PNG)
+![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/xaxiscode.PNG)
 
 5. renderStates(): According to the user's selected axis, re-position the location of each circle on the chart according to its corresponding x and y values. The re-position is programmed to take 1000ms with transition actively showing. 
 6. updateCircleText(): According to the user's selected axis, re-position the location of each circle's state abbreivatipon text on the chart according to its corresponding x and y values. The re-position is programmed to take 1000ms with transition actively showing. 
