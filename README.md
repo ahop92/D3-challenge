@@ -12,7 +12,7 @@ The data visualization above allows the user to compare two sets of data to one 
 
 ![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/xaxis.PNG)
 
-![image](https://raw.github.com/ahop92/census-intersectional_demographic-eval-2014/main/images/yaxis.PNG)
+![image](images/yaxis.PNG)
 
 
 ## Functionality
